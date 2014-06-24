@@ -1,4 +1,5 @@
 ZMYVersionNotes----------提供最基础的版本检测
+
 只返回数据，不提供UI
 
 releaseNoteText 版本更新日志
