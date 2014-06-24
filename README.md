@@ -1,6 +1,6 @@
 ZMYVersionNotes----------提供最基础的版本检测
-
-只返回数据，不提供UI
+只需提供appIdentifier ，所有方法都使用回调完成
+只返回数据，不提供UI，你可以使用任何提示框
 
 releaseNoteText 版本更新日志
 releaseVersionText 版本号
