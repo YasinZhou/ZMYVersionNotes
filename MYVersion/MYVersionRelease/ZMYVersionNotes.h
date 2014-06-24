@@ -32,6 +32,11 @@
  }
  */
 #import <Foundation/Foundation.h>
+
+//releaseNoteText       版本更新日志
+//releaseVersionText    版本号
+//resultDic             所有请求到的数据
+
 typedef void (^CompletionBlock)(NSString *releaseNoteText,NSString *releaseVersionText,NSDictionary *resultDic);
 typedef void (^isOrNotCompletionBlock)(BOOL isLatestVersion,NSString *releaseNoteText,NSString *releaseVersionText,NSDictionary *resultDic);
 typedef void (^CompletionBlockError)(NSError *error);
